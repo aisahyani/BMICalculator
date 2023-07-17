@@ -43,7 +43,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://github.com/fikrinazeef/Assignment"));
+                intent.setData(Uri.parse("https://github.com/aisahyani/BMICalculator"));
                 startActivity(intent);
             }
         });
